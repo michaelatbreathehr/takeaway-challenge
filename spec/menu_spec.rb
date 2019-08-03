@@ -2,10 +2,10 @@ require 'menu'
 
 describe Menu do
 
-  #dependence injection - inject into the menu
+  # dependence injection - inject into the menu
   subject(:menu) { described_class.new(dishes) }
 
-  #add dishes into a hash
+  # add dishes into a hash
   let(:dishes) do
     {
       pizza: 5.00,
