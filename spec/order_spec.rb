@@ -1,5 +1,8 @@
 require 'order'
+<<<<<<< HEAD
 require 'menu'
+=======
+>>>>>>> 4b0510ab08af1c91b6a194e0b363a4f9c625b11f
 
 describe Order do
 
@@ -11,10 +14,14 @@ describe Order do
       burger: 3
     }
   end
+<<<<<<< HEAD
 
   # changed to instance double - requires the class and has to be a string
   # this will search the menu file for a method has dish
   let(:menu) { instance_double("menu") }
+=======
+  let(:menu) { double(:menu) }
+>>>>>>> 4b0510ab08af1c91b6a194e0b363a4f9c625b11f
 
   # allows menu to think it has dishes
   before do
